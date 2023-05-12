@@ -5,13 +5,13 @@ class Rectangle {
 		this._height = height;
 	}
 	getArea(){
-		return parseInt(this._width) * parseInt(this._height);
+		return this._width * this._height;
 	}
 }
 
 class Square extends Rectangle {
 	getPerimeter(){
-		return 4 * parseInt(this._width);
+		return 4 * this._width;
 	}
 }
 
