@@ -4,7 +4,6 @@ class Rectangle {
 		this.width = width;
 		this.height = height;
 	}
-	
 	get width(){
 		return this.width;
 	}
@@ -20,7 +19,7 @@ class Square extends Rectangle {
 	super(side, side);
 	}
 	getPerimeter(){
-		return 4 * this._width;
+		return 4 * this.width;
 	}
 }
 // Do not change the code below this line
