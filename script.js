@@ -4,6 +4,12 @@ class Rectangle {
 		this.width = width;
 		this.height = height;
 	}
+	set width(width){
+		this.width = width;
+	}
+	set height(height){
+		this.height = height;
+	}
 	get width(){
 		return this.width;
 	}
@@ -14,13 +20,11 @@ class Rectangle {
 		return this.width * this.height;
 	}
 }
-
 class Square extends Rectangle {
 	getPerimeter(){
 		return 4 * this._width;
 	}
 }
-
 // Do not change the code below this line
 window.Rectangle = Rectangle;
 window.Square = Square;
